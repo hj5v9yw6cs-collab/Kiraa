@@ -1,0 +1,109 @@
+{
+  "slug": "nana-zine",
+  "index": 3,
+  "scale": "standard",
+  "title": { "ru": "NANA", "en": "NANA" },
+  "category": { "ru": "Зин / editorial-дизайн", "en": "Zine / editorial design" },
+  "summary": {
+    "ru": "Зин о том, почему «Нана» Ай Ядзавы стала иконой стиля: одежда как язык отношений, Вивьен Вествуд, комната 707 и панк-коды, которые не устаревают.",
+    "en": "A zine on why Ai Yazawa's «Nana» became a fashion icon: clothes as a language of relationships, Vivienne Westwood, room 707 and punk codes that never date."
+  },
+  "tags": [
+    { "ru": "Зин", "en": "Zine" },
+    { "ru": "Вёрстка", "en": "Layout" },
+    { "ru": "Типографика", "en": "Typography" },
+    { "ru": "Растр", "en": "Halftone" }
+  ],
+  "meta": [
+    { "label": { "ru": "Формат", "en": "Format" }, "value": { "ru": "Зин, квадрат", "en": "Zine, square" } },
+    { "label": { "ru": "Язык", "en": "Language" }, "value": { "ru": "Английский", "en": "English" } },
+    { "label": { "ru": "Тема", "en": "Subject" }, "value": { "ru": "Мода в аниме «Нана»", "en": "Fashion in the anime «Nana»" } },
+    { "label": { "ru": "Год", "en": "Year" }, "value": { "ru": "[год]", "en": "[year]" } }
+  ],
+  "cover": {
+    "kind": "image",
+    "src": "/media/nana-zine/cover.jpg",
+    "width": 2400,
+    "height": 1810,
+    "alt": { "ru": "Обложка зина NANA: растровый портрет и малиновый логотип", "en": "NANA zine cover: a halftone portrait and a crimson logotype" }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "lead": true,
+      "src": "/media/nana-zine/cover.jpg",
+      "width": 2400,
+      "height": 1810,
+      "alt": { "ru": "Обложка зина NANA", "en": "NANA zine cover" },
+      "caption": { "ru": "Обложка", "en": "Cover" }
+    },
+    {
+      "kind": "image",
+      "lead": true,
+      "src": "/media/nana-zine/spreads.jpg",
+      "width": 2400,
+      "height": 1795,
+      "alt": { "ru": "Развороты зина на сером столе", "en": "The zine's spreads on a grey table" },
+      "caption": { "ru": "Развороты", "en": "Spreads" }
+    },
+    {
+      "kind": "image",
+      "span": 12,
+      "src": "/media/nana-zine/pages.jpg",
+      "width": 2400,
+      "height": 1350,
+      "alt": { "ru": "Четыре разворота: две Наны, Вивьен Вествуд, 707, Ай Ядзава", "en": "Four spreads: the two Nanas, Vivienne Westwood, 707, Ai Yazawa" },
+      "caption": { "ru": "Развороты: «Две Наны», Vivienne Westwood, «707», «Why Nana became a fashion icon?»", "en": "Spreads: “Two Nanas”, Vivienne Westwood, “707”, “Why Nana became a fashion icon?”" }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "label": { "ru": "Идея", "en": "Idea" },
+      "body": [
+        {
+          "ru": "В «Нане» сюжет можно читать по костюмам: когда героини теряют себя, распадается и стиль, а когда врут — одежда становится «слишком аккуратной». Зин разбирает эту логику разворот за разворотом.",
+          "en": "In «Nana» you can read the plot through the costumes: when the characters lose themselves, the style falls apart; when they lie, the clothes become “too neat”. The zine takes that logic apart spread by spread."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "label": { "ru": "Развороты", "en": "Spreads" },
+      "items": [
+        { "ru": "Clothes as a language of relationships — костюм как сюжет", "en": "Clothes as a language of relationships — costume as plot" },
+        { "ru": "Vivienne Westwood — панк как философия и кольцо-броня", "en": "Vivienne Westwood — punk as a philosophy, and the Armour Ring" },
+        { "ru": "707 — комната, где пересеклись две Наны", "en": "707 — the room where the two Nanas met" },
+        { "ru": "Black Stones — сигареты, группа и татуировка", "en": "Black Stones — the cigarettes, the band and the tattoo" },
+        { "ru": "Why «Nana» became a fashion icon? — Ай Ядзава и мода", "en": "Why «Nana» became a fashion icon? — Ai Yazawa and fashion" }
+      ]
+    },
+    {
+      "type": "steps",
+      "label": { "ru": "Приёмы", "en": "Devices" },
+      "items": [
+        {
+          "title": { "ru": "Чёрный и один цвет", "en": "Black and one colour" },
+          "body": {
+            "ru": "Чёрный фон, полутоновый растр и единственный малиновый акцент — как на афише панк-группы.",
+            "en": "A black ground, halftone images and a single crimson accent — like a punk band's poster."
+          }
+        },
+        {
+          "title": { "ru": "Вертикальный набор", "en": "Vertical setting" },
+          "body": {
+            "ru": "Заголовки набраны в столбик по краю полосы и работают как корешок разворота.",
+            "en": "Headlines are set letter-by-letter down the edge of the page and act as the spread's spine."
+          }
+        },
+        {
+          "title": { "ru": "Коллаж", "en": "Collage" },
+          "body": {
+            "ru": "Кадры аниме и манги наложены внахлёст, повёрнуты и срезаны краем листа.",
+            "en": "Anime and manga frames overlap, tilt and run off the edge of the page."
+          }
+        }
+      ]
+    }
+  ]
+}

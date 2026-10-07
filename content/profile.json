@@ -1,0 +1,285 @@
+{
+  "name": {
+    "ru": "Кира Горст",
+    "en": "Kira Gorst"
+  },
+  "role": {
+    "ru": "Графический дизайнер и модель",
+    "en": "Graphic designer & model"
+  },
+  "city": {
+    "ru": "Москва",
+    "en": "Moscow"
+  },
+  "status": {
+    "open": true,
+    "label": {
+      "ru": "Открыта к проектам",
+      "en": "Open to projects"
+    }
+  },
+  "tagline": {
+    "ru": "Дизайн: айдентика, зины, инфографика, рисунок.",
+    "en": "Design: identity, zines, infographics, drawing."
+  },
+  "heroPhoto": {
+    "src": "/media/about/portrait.jpg",
+    "width": 1474,
+    "height": 1800,
+    "alt": {
+      "ru": "Кира Горст — чёрно-белый портрет у воды, волосы на ветру",
+      "en": "Kira Gorst — black-and-white portrait by the water, hair in the wind"
+    }
+  },
+  "about": {
+    "paragraphs": [
+      {
+        "ru": "Графический дизайнер и модель. Делаю фирменные стили, зины и инфографику — и почти всю графику для них рисую сама, с нуля, в векторе: от орнамента на визитке чайной до хамелеона на научно-популярном плакате.",
+        "en": "Graphic designer and model. I make brand identities, zines and infographics — and draw nearly all the graphics in them myself, from scratch, in vector: from the ornament on a tea house's business card to the chameleon on a popular-science poster."
+      },
+      {
+        "ru": "Сильная база в академическом рисунке — это не про «умение рисовать», а про контроль формы и визуала. Я понимаю, как строится объект, свет, объём и композиция, — поэтому не копирую, а создаю.",
+        "en": "A strong grounding in academic drawing isn't about “being able to draw” — it's about control of form and of the image. I understand how an object, light, volume and composition are built, so I don't copy, I create."
+      },
+      {
+        "ru": "В дизайне это даёт свободу: могу собрать графику с нуля, держать баланс и делать визуал, который выглядит уверенно, а не случайно.",
+        "en": "In design that gives me freedom: I can build graphics from nothing, hold the balance, and make visuals that look deliberate rather than accidental."
+      }
+    ],
+    "quote": {
+      "ru": "Я понимаю, как строится объект, свет, объём и композиция, — поэтому не копирую, а создаю.",
+      "en": "I understand how an object, light, volume and composition are built — so I don't copy, I create."
+    },
+    "portrait": {
+      "src": "/media/about/cover.jpg",
+      "width": 2400,
+      "height": 1344,
+      "alt": {
+        "ru": "Кира Горст — чёрно-белый портрет на белых простынях",
+        "en": "Kira Gorst — black-and-white portrait on white sheets"
+      },
+      "caption": {
+        "ru": "Кира Горст",
+        "en": "Kira Gorst"
+      }
+    },
+    "strip": [
+      {
+        "src": "/media/about/cover.jpg",
+        "width": 2400,
+        "height": 1344,
+        "alt": {
+          "ru": "Кира Горст — чёрно-белый портрет на белых простынях",
+          "en": "Kira Gorst — black-and-white portrait on white sheets"
+        }
+      },
+      {
+        "src": "/media/academic-drawing/hand.jpg",
+        "width": 1170,
+        "height": 1503,
+        "alt": {
+          "ru": "Академический рисунок: гипсовая рука на драпировке",
+          "en": "Academic drawing: a plaster hand on drapery"
+        }
+      }
+    ]
+  },
+  "facts": [
+    {
+      "label": {
+        "ru": "Направление",
+        "en": "Field"
+      },
+      "value": {
+        "ru": "Графический дизайн, модель",
+        "en": "Graphic design, modelling"
+      }
+    },
+    {
+      "label": {
+        "ru": "Специализация",
+        "en": "Focus"
+      },
+      "value": {
+        "ru": "Айдентика, editorial, инфографика, иллюстрация",
+        "en": "Identity, editorial, infographics, illustration"
+      }
+    },
+    {
+      "label": {
+        "ru": "Основа",
+        "en": "Grounding"
+      },
+      "value": {
+        "ru": "Академический рисунок",
+        "en": "Academic drawing"
+      }
+    },
+    {
+      "label": {
+        "ru": "Город",
+        "en": "Based in"
+      },
+      "value": {
+        "ru": "Москва",
+        "en": "Moscow"
+      }
+    },
+    {
+      "label": {
+        "ru": "Образование",
+        "en": "Education"
+      },
+      "value": {
+        "ru": "[Где училась]",
+        "en": "[School]"
+      }
+    },
+    {
+      "label": {
+        "ru": "Языки",
+        "en": "Languages"
+      },
+      "value": {
+        "ru": "[Русский, английский — уточнить]",
+        "en": "[Russian, English — to confirm]"
+      }
+    }
+  ],
+  "skills": [
+    {
+      "title": {
+        "ru": "Айдентика",
+        "en": "Identity"
+      },
+      "items": [
+        {
+          "ru": "Логотип и фирменный стиль",
+          "en": "Logo & brand identity"
+        },
+        {
+          "ru": "Визитки и приглашения",
+          "en": "Business cards & invitations"
+        },
+        {
+          "ru": "Открытки и листовки",
+          "en": "Postcards & flyers"
+        },
+        {
+          "ru": "Мерч",
+          "en": "Merch"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ru": "Editorial",
+        "en": "Editorial"
+      },
+      "items": [
+        {
+          "ru": "Зины",
+          "en": "Zines"
+        },
+        {
+          "ru": "Вёрстка разворотов",
+          "en": "Spread layout"
+        },
+        {
+          "ru": "Типографика",
+          "en": "Typography"
+        },
+        {
+          "ru": "Растр и коллаж",
+          "en": "Halftone & collage"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ru": "Инфографика",
+        "en": "Infographics"
+      },
+      "items": [
+        {
+          "ru": "Визуализация данных",
+          "en": "Data visualisation"
+        },
+        {
+          "ru": "Рецепты и пошаговые схемы",
+          "en": "Recipes & step-by-step diagrams"
+        },
+        {
+          "ru": "Научно-популярные плакаты",
+          "en": "Popular-science posters"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ru": "Иллюстрация",
+        "en": "Illustration"
+      },
+      "items": [
+        {
+          "ru": "Кастомная векторная графика",
+          "en": "Custom vector graphics"
+        },
+        {
+          "ru": "Персонажи",
+          "en": "Characters"
+        },
+        {
+          "ru": "Орнамент и паттерны",
+          "en": "Ornament & patterns"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ru": "Рисунок",
+        "en": "Drawing"
+      },
+      "items": [
+        {
+          "ru": "Академический рисунок",
+          "en": "Academic drawing"
+        },
+        {
+          "ru": "Анатомия",
+          "en": "Anatomy"
+        },
+        {
+          "ru": "Гипсы и драпировки",
+          "en": "Casts & drapery"
+        },
+        {
+          "ru": "Свет, объём, композиция",
+          "en": "Light, volume, composition"
+        }
+      ]
+    },
+    {
+      "title": {
+        "ru": "Инструменты",
+        "en": "Tools"
+      },
+      "items": [
+        {
+          "ru": "[Illustrator, Photoshop, … — уточнить]",
+          "en": "[Illustrator, Photoshop, … — to confirm]"
+        }
+      ]
+    }
+  ],
+  "contacts": {
+    "telegram": "kiragorst"
+  },
+  "portfolioPdf": {
+    "src": "/files/kira-gorst-portfolio.pdf",
+    "label": {
+      "ru": "Портфолио, PDF",
+      "en": "Portfolio, PDF"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "academic-drawing",
+  "index": 5,
+  "scale": "compact",
+  "title": { "ru": "Академический рисунок", "en": "Academic drawing" },
+  "category": { "ru": "Рисунок / графитный карандаш", "en": "Drawing / graphite" },
+  "summary": {
+    "ru": "Гипсы, анатомия и штудии — база, на которой стоит вся остальная графика.",
+    "en": "Casts, anatomy and studies — the grounding everything else stands on."
+  },
+  "tags": [
+    { "ru": "Гипсы", "en": "Casts" },
+    { "ru": "Анатомия", "en": "Anatomy" },
+    { "ru": "Штудии", "en": "Studies" }
+  ],
+  "meta": [
+    { "label": { "ru": "Техника", "en": "Medium" }, "value": { "ru": "Графитный карандаш, бумага", "en": "Graphite pencil on paper" } },
+    { "label": { "ru": "Сюжеты", "en": "Subjects" }, "value": { "ru": "Гипсовая рука, Аполлон, экорше, Ника, штудии лица", "en": "Plaster hand, Apollo, écorché, Nike, face studies" } }
+  ],
+  "cover": {
+    "kind": "image",
+    "src": "/media/academic-drawing/apollo.jpg",
+    "width": 1170,
+    "height": 1534,
+    "alt": { "ru": "Рисунок гипсовой головы Аполлона", "en": "Drawing of a plaster head of Apollo" }
+  },
+  "media": [
+    {
+      "kind": "image",
+      "lead": true,
+      "src": "/media/academic-drawing/hand.jpg",
+      "width": 1170,
+      "height": 1503,
+      "alt": { "ru": "Гипсовая рука на драпировке и призме", "en": "A plaster hand on drapery and a prism" },
+      "caption": { "ru": "Гипсовая рука", "en": "Plaster hand" }
+    },
+    {
+      "kind": "image",
+      "lead": true,
+      "src": "/media/academic-drawing/apollo.jpg",
+      "width": 1170,
+      "height": 1534,
+      "alt": { "ru": "Голова Аполлона", "en": "Head of Apollo" },
+      "caption": { "ru": "Аполлон", "en": "Apollo" }
+    },
+    {
+      "kind": "image",
+      "lead": true,
+      "src": "/media/academic-drawing/ecorche.jpg",
+      "width": 942,
+      "height": 1410,
+      "alt": { "ru": "Анатомическая фигура — экорше", "en": "Anatomical figure — écorché" },
+      "caption": { "ru": "Экорше", "en": "Écorché" }
+    },
+    {
+      "kind": "image",
+      "span": 5,
+      "src": "/media/academic-drawing/nike.jpg",
+      "width": 846,
+      "height": 1028,
+      "alt": { "ru": "Ника Самофракийская на листе поверх простыни", "en": "Nike of Samothrace on a sheet over linen" },
+      "caption": { "ru": "Ника Самофракийская", "en": "Nike of Samothrace" }
+    },
+    {
+      "kind": "image",
+      "span": 7,
+      "src": "/media/academic-drawing/study.jpg",
+      "width": 854,
+      "height": 901,
+      "alt": { "ru": "Штудия: лицо, закрытое рукой", "en": "Study: a face behind an arm" },
+      "caption": { "ru": "Штудия", "en": "Study" }
+    },
+    {
+      "kind": "image",
+      "span": 6,
+      "start": 4,
+      "src": "/media/academic-drawing/split-face.jpg",
+      "width": 949,
+      "height": 910,
+      "alt": { "ru": "Лицо, разделённое пополам: человек и чудовище", "en": "A face split in two: human and monster" },
+      "caption": { "ru": "Свободная графика", "en": "Free drawing" }
+    }
+  ],
+  "blocks": [
+    {
+      "type": "quote",
+      "label": { "ru": "Зачем", "en": "Why" },
+      "text": {
+        "ru": "Сильная база в академическом рисунке — это не про «умение рисовать», а про контроль формы и визуала.",
+        "en": "A strong grounding in academic drawing isn't about “being able to draw” — it's about control of form and of the image."
+      }
+    },
+    {
+      "type": "text",
+      "label": { "ru": "Что это даёт", "en": "What it gives" },
+      "body": [
+        {
+          "ru": "Я понимаю, как строится объект, свет, объём и композиция, — поэтому не копирую, а создаю. В дизайне это даёт свободу: могу собрать графику с нуля, держать баланс и делать визуал, который выглядит уверенно, а не случайно.",
+          "en": "I understand how an object, light, volume and composition are built — so I don't copy, I create. In design that gives me freedom: I can build graphics from nothing, hold the balance, and make visuals that look deliberate rather than accidental."
+        }
+      ]
+    }
+  ]
+}

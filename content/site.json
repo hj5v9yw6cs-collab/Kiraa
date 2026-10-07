@@ -1,0 +1,19 @@
+{
+  "title": {
+    "ru": "Кира Горст — графический дизайнер",
+    "en": "Kira Gorst — graphic designer"
+  },
+  "description": {
+    "ru": "Кира Горст, графический дизайнер и модель. Айдентика, зины, инфографика и академический рисунок — графика, нарисованная с нуля.",
+    "en": "Kira Gorst, graphic designer and model. Identity, zines, infographics and academic drawing — graphics drawn from scratch."
+  },
+  "nav": [
+    { "key": "about", "href": "/about", "label": { "ru": "Обо мне", "en": "About" } },
+    { "key": "work", "href": "/work", "label": { "ru": "Проекты", "en": "Work" } },
+    { "key": "contact", "href": "/contact", "label": { "ru": "Контакты", "en": "Contact" } }
+  ],
+  "contactIntro": {
+    "ru": "Пишите про айдентику, вёрстку, инфографику, иллюстрацию или съёмки — или просто чтобы познакомиться.",
+    "en": "Write about identity, layout, infographics, illustration or shoots — or just to say hello."
+  }
+}
