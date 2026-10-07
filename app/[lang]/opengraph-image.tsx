@@ -1,10 +1,17 @@
 import { ImageResponse } from "next/og";
 import fs from "node:fs";
 import path from "node:path";
+import { locales } from "@/lib/i18n";
 
 export const alt = "Kira Gorst — graphic designer";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
+
+// Rendered at build time, where public/ is on disk — a serverless function can't read it.
+export const dynamic = "force-static";
+export function generateStaticParams() {
+  return locales.map((lang) => ({ lang }));
+}
 
 export default function OpengraphImage() {
   const photo = fs.readFileSync(path.join(process.cwd(), "public/media/about/portrait.jpg"));
