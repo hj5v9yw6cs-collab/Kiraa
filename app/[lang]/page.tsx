@@ -83,7 +83,7 @@ export default async function Home({ params }: { params: Promise<{ lang: Locale 
         </div>
         <div className="mt-12 grid grid-cols-[minmax(0,1.79fr)_minmax(0,1fr)] gap-3 md:gap-4">
           {profile.about.strip.map((img) => (
-            <div key={img.src} className="aspect-[4/5] md:aspect-auto md:h-[min(52vw,640px)]">
+            <div key={img.src} className="h-[64vw] md:h-[min(52vw,640px)]">
               <Picture img={img} lang={lang} fill className="h-full" sizes="(max-width: 768px) 60vw, 45vw" />
             </div>
           ))}
