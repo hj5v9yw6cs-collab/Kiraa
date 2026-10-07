@@ -4,11 +4,66 @@
     "en": "I model for brands, photographers and personal projects. Open to shoots in Moscow — message me on Telegram or Instagram."
   },
   "facts": [
-    { "label": { "ru": "Город", "en": "Based in" }, "value": { "ru": "Москва", "en": "Moscow" } },
-    { "label": { "ru": "Рост", "en": "Height" }, "value": { "ru": "[рост, см]", "en": "[height, cm]" } },
-    { "label": { "ru": "Параметры", "en": "Measurements" }, "value": { "ru": "[грудь / талия / бёдра]", "en": "[bust / waist / hips]" } },
-    { "label": { "ru": "Размер обуви", "en": "Shoe size" }, "value": { "ru": "[размер]", "en": "[size]" } },
-    { "label": { "ru": "Волосы / глаза", "en": "Hair / eyes" }, "value": { "ru": "[цвет волос / глаз]", "en": "[hair / eye colour]" } }
+    {
+      "label": {
+        "ru": "Город",
+        "en": "Based in"
+      },
+      "value": {
+        "ru": "Москва",
+        "en": "Moscow"
+      }
+    },
+    {
+      "label": {
+        "ru": "Рост",
+        "en": "Height"
+      },
+      "value": {
+        "ru": "170 см",
+        "en": "170 cm"
+      }
+    },
+    {
+      "label": {
+        "ru": "Параметры",
+        "en": "Measurements"
+      },
+      "value": {
+        "ru": "75 / 56 / 90",
+        "en": "75 / 56 / 90 cm"
+      }
+    },
+    {
+      "label": {
+        "ru": "Размер одежды",
+        "en": "Clothing size"
+      },
+      "value": {
+        "ru": "XS",
+        "en": "XS"
+      }
+    },
+    {
+      "label": {
+        "ru": "Глаза",
+        "en": "Eyes"
+      },
+      "value": {
+        "ru": "Серо-голубые",
+        "en": "Grey-blue"
+      }
+    },
+    {
+      "label": {
+        "ru": "Волосы",
+        "en": "Hair"
+      },
+      "value": {
+        "ru": "Чёрные",
+        "en": "Black"
+      }
+    }
   ],
   "photos": [
     {
@@ -17,7 +72,10 @@
       "src": "/media/about/portrait.jpg",
       "width": 1474,
       "height": 1800,
-      "alt": { "ru": "Кира у воды, волосы на ветру, чёрно-белое фото", "en": "Kira by the water, hair in the wind, black and white" }
+      "alt": {
+        "ru": "Кира у воды, волосы на ветру, чёрно-белое фото",
+        "en": "Kira by the water, hair in the wind, black and white"
+      }
     },
     {
       "kind": "image",
@@ -25,7 +83,10 @@
       "src": "/media/model/fur.jpg",
       "width": 2400,
       "height": 1800,
-      "alt": { "ru": "Кира в меховой накидке, вспышка", "en": "Kira in a fur wrap, flash" }
+      "alt": {
+        "ru": "Кира в меховой накидке, вспышка",
+        "en": "Kira in a fur wrap, flash"
+      }
     },
     {
       "kind": "image",
@@ -33,7 +94,10 @@
       "src": "/media/about/cover.jpg",
       "width": 2400,
       "height": 1344,
-      "alt": { "ru": "Кира на белых простынях, чёрно-белое фото", "en": "Kira on white sheets, black and white" }
+      "alt": {
+        "ru": "Кира на белых простынях, чёрно-белое фото",
+        "en": "Kira on white sheets, black and white"
+      }
     }
   ]
 }
