@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { ContactForm } from "@/components/ContactForm";
+import { contactLinks } from "@/components/Footer";
 import { Lines } from "@/components/Reveal";
-import { Tx } from "@/components/Tx";
 import { getProfile, getSite } from "@/lib/content";
-import { labels, t, type Locale } from "@/lib/i18n";
+import { labels, t, type Locale, navLabel } from "@/lib/i18n";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: Locale }> }): Promise<Metadata> {
   const { lang } = await params;
-  return { title: t(getSite().nav[2].label, lang), alternates: { canonical: `/${lang}/contact` } };
+  return { title: navLabel(getSite().nav, "contact", lang), alternates: { canonical: `/${lang}/contact` } };
 }
 
 export default async function Contact({ params }: { params: Promise<{ lang: Locale }> }) {
@@ -18,25 +18,7 @@ export default async function Contact({ params }: { params: Promise<{ lang: Loca
   const words = ui.writeMe.split(" ");
   const { telegram, email } = profile.contacts;
 
-  const rows = [
-    telegram && {
-      label: ui.telegram,
-      node: (
-        <a href={`https://t.me/${telegram}`} target="_blank" rel="noreferrer" className="u-line">
-          @{telegram}
-        </a>
-      ),
-    },
-    email && {
-      label: ui.email,
-      node: (
-        <a href={`mailto:${email}`} className="u-line">
-          {email}
-        </a>
-      ),
-    },
-    { label: ui.city, node: <Tx>{t(profile.city, lang)}</Tx> },
-  ].filter(Boolean) as { label: string; node: React.ReactNode }[];
+  const rows = contactLinks(lang, profile);
 
   return (
     <>

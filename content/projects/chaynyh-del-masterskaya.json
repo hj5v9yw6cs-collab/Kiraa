@@ -2,35 +2,101 @@
   "slug": "chaynyh-del-masterskaya",
   "index": 1,
   "scale": "hero",
-  "title": { "ru": "Чайных дел мастерская", "en": "Tea Masters' Workshop" },
-  "category": { "ru": "Ребрендинг / фирменный стиль", "en": "Rebrand / brand identity" },
+  "title": {
+    "ru": "Чайных дел мастерская",
+    "en": "Tea Masters' Workshop"
+  },
+  "category": {
+    "ru": "Ребрендинг / фирменный стиль",
+    "en": "Rebrand / brand identity"
+  },
   "summary": {
     "ru": "Ребрендинг чайной: фирменный стиль на полностью кастомной векторной графике, нарисованной с нуля, — визитка, приглашение, открытки, мерч и листовка.",
     "en": "A tea house rebrand: a brand identity built on fully custom vector graphics drawn from scratch — business card, invitation, postcards, merch and a flyer."
   },
   "lede": {
-    "ru": "Ребрендинг чайной «Чайных дел мастерская». Вся графика — кастомный вектор, нарисованный с нуля, и одна система, которая держит пять носителей: от визитки до футболки.",
-    "en": "A rebrand for the «Chaynykh Del Masterskaya» tea house. Every graphic is custom vector drawn from scratch, and one system carries five formats — from the business card to the T-shirt."
+    "ru": "Учебный ребрендинг реально существующей чайной «Чайных дел мастерская». Вся графика — кастомный вектор, нарисованный с нуля, и одна система, которая держит пять носителей: от визитки до футболки.",
+    "en": "A study rebrand of «Chaynykh Del Masterskaya», a real tea house. Every graphic is custom vector drawn from scratch, and one system carries five formats — from the business card to the T-shirt."
   },
   "tags": [
-    { "ru": "Айдентика", "en": "Identity" },
-    { "ru": "Векторная иллюстрация", "en": "Vector illustration" },
-    { "ru": "Полиграфия", "en": "Print" },
-    { "ru": "Мерч", "en": "Merch" }
+    {
+      "ru": "Айдентика",
+      "en": "Identity"
+    },
+    {
+      "ru": "Векторная иллюстрация",
+      "en": "Vector illustration"
+    },
+    {
+      "ru": "Полиграфия",
+      "en": "Print"
+    },
+    {
+      "ru": "Мерч",
+      "en": "Merch"
+    }
   ],
   "meta": [
-    { "label": { "ru": "Клиент", "en": "Client" }, "value": { "ru": "Чайная «Чайных дел мастерская»", "en": "«Chaynykh Del Masterskaya» tea house" } },
-    { "label": { "ru": "Задача", "en": "Brief" }, "value": { "ru": "Ребрендинг, фирменный стиль", "en": "Rebrand, brand identity" } },
-    { "label": { "ru": "Носители", "en": "Formats" }, "value": { "ru": "Визитка, приглашение, открытки, мерч, листовка", "en": "Business card, invitation, postcards, merch, flyer" } },
-    { "label": { "ru": "Графика", "en": "Graphics" }, "value": { "ru": "Кастомный вектор, с нуля", "en": "Custom vector, from scratch" } },
-    { "label": { "ru": "Год", "en": "Year" }, "value": { "ru": "[год]", "en": "[year]" } }
+    {
+      "label": {
+        "ru": "Тип",
+        "en": "Type"
+      },
+      "value": {
+        "ru": "Учебный проект — ребрендинг реально существующего бренда",
+        "en": "Study project — a rebrand of a real, existing brand"
+      }
+    },
+    {
+      "label": {
+        "ru": "Задача",
+        "en": "Brief"
+      },
+      "value": {
+        "ru": "Ребрендинг, фирменный стиль",
+        "en": "Rebrand, brand identity"
+      }
+    },
+    {
+      "label": {
+        "ru": "Носители",
+        "en": "Formats"
+      },
+      "value": {
+        "ru": "Визитка, приглашение, открытки, мерч, листовка",
+        "en": "Business card, invitation, postcards, merch, flyer"
+      }
+    },
+    {
+      "label": {
+        "ru": "Графика",
+        "en": "Graphics"
+      },
+      "value": {
+        "ru": "Кастомный вектор, с нуля",
+        "en": "Custom vector, from scratch"
+      }
+    },
+    {
+      "label": {
+        "ru": "Год",
+        "en": "Year"
+      },
+      "value": {
+        "ru": "2026",
+        "en": "2026"
+      }
+    }
   ],
   "cover": {
     "kind": "image",
     "src": "/media/chaynyh-del-masterskaya/poster.jpg",
     "width": 1675,
     "height": 1943,
-    "alt": { "ru": "Листовка «Чайных дел мастерская» с персонажем и меандром", "en": "«Chaynykh Del Masterskaya» flyer with the character and the meander" }
+    "alt": {
+      "ru": "Листовка «Чайных дел мастерская» с персонажем и меандром",
+      "en": "«Chaynykh Del Masterskaya» flyer with the character and the meander"
+    }
   },
   "media": [
     {
@@ -39,8 +105,14 @@
       "src": "/media/chaynyh-del-masterskaya/poster.jpg",
       "width": 1675,
       "height": 1943,
-      "alt": { "ru": "Листовка: девушка с пиалой в рамке из меандра", "en": "Flyer: a girl with a tea bowl framed by the meander" },
-      "caption": { "ru": "Листовка", "en": "Flyer" }
+      "alt": {
+        "ru": "Листовка: девушка с пиалой в рамке из меандра",
+        "en": "Flyer: a girl with a tea bowl framed by the meander"
+      },
+      "caption": {
+        "ru": "Листовка",
+        "en": "Flyer"
+      }
     },
     {
       "kind": "image",
@@ -48,8 +120,14 @@
       "src": "/media/chaynyh-del-masterskaya/cards.jpg",
       "width": 2400,
       "height": 1506,
-      "alt": { "ru": "Визитка, две стороны: персонаж с чашкой и логотип", "en": "Business card, both sides: the character with a cup and the logo" },
-      "caption": { "ru": "Визитка", "en": "Business card" }
+      "alt": {
+        "ru": "Визитка, две стороны: персонаж с чашкой и логотип",
+        "en": "Business card, both sides: the character with a cup and the logo"
+      },
+      "caption": {
+        "ru": "Визитка",
+        "en": "Business card"
+      }
     },
     {
       "kind": "image",
@@ -57,8 +135,14 @@
       "src": "/media/chaynyh-del-masterskaya/merch.jpg",
       "width": 2400,
       "height": 1401,
-      "alt": { "ru": "Белая футболка с крупным графическим профилем на спине", "en": "A white T-shirt with a large graphic profile on the back" },
-      "caption": { "ru": "Мерч", "en": "Merch" }
+      "alt": {
+        "ru": "Белая футболка с крупным графическим профилем на спине",
+        "en": "A white T-shirt with a large graphic profile on the back"
+      },
+      "caption": {
+        "ru": "Мерч",
+        "en": "Merch"
+      }
     },
     {
       "kind": "image",
@@ -66,8 +150,14 @@
       "src": "/media/chaynyh-del-masterskaya/print-set.jpg",
       "width": 2400,
       "height": 1044,
-      "alt": { "ru": "Листовка, приглашение на чайную церемонию и открытка", "en": "Flyer, tea ceremony invitation and postcard" },
-      "caption": { "ru": "Листовка, приглашение на чайную церемонию, открытка — лицо и оборот", "en": "Flyer, tea ceremony invitation, postcard — front and back" }
+      "alt": {
+        "ru": "Листовка, приглашение на чайную церемонию и открытка",
+        "en": "Flyer, tea ceremony invitation and postcard"
+      },
+      "caption": {
+        "ru": "Листовка, приглашение на чайную церемонию, открытка — лицо и оборот",
+        "en": "Flyer, tea ceremony invitation, postcard — front and back"
+      }
     },
     {
       "kind": "image",
@@ -76,14 +166,23 @@
       "src": "/media/chaynyh-del-masterskaya/invitation.jpg",
       "width": 2400,
       "height": 1480,
-      "alt": { "ru": "Приглашение с красной пиалой в руке на просвет", "en": "The invitation with a red tea bowl, held against the light" },
-      "caption": { "ru": "Приглашение", "en": "Invitation" }
+      "alt": {
+        "ru": "Приглашение с красной пиалой в руке на просвет",
+        "en": "The invitation with a red tea bowl, held against the light"
+      },
+      "caption": {
+        "ru": "Приглашение",
+        "en": "Invitation"
+      }
     }
   ],
   "blocks": [
     {
       "type": "text",
-      "label": { "ru": "Подход", "en": "Approach" },
+      "label": {
+        "ru": "Подход",
+        "en": "Approach"
+      },
       "body": [
         {
           "ru": "Ни одной стоковой картинки: орнамент, персонаж и все иллюстрации нарисованы в векторе с нуля. Поэтому стиль не разваливается на разных форматах — каждый носитель собран из тех же деталей.",
@@ -93,24 +192,36 @@
     },
     {
       "type": "steps",
-      "label": { "ru": "Система", "en": "System" },
+      "label": {
+        "ru": "Система",
+        "en": "System"
+      },
       "items": [
         {
-          "title": { "ru": "Меандр", "en": "The meander" },
+          "title": {
+            "ru": "Меандр",
+            "en": "The meander"
+          },
           "body": {
             "ru": "Квадратная спираль работает сразу как знак, рамка и паттерн: она стоит в логотипе, обрамляет приглашение и разворачивается на открытке в целый узор.",
             "en": "A square spiral works as the mark, the frame and the pattern at once: it sits in the logo, borders the invitation and unfolds into a full pattern on the postcard."
           }
         },
         {
-          "title": { "ru": "Персонаж", "en": "The character" },
+          "title": {
+            "ru": "Персонаж",
+            "en": "The character"
+          },
           "body": {
             "ru": "Девушка с пиалой — главный герой. На листовке она в анфас, на визитке — в профиль, на футболке сведена к одному жесту: изгиб волос и красный знак.",
             "en": "A girl with a tea bowl is the hero. On the flyer she faces you, on the card she's in profile, and on the T-shirt she's reduced to one gesture: a curve of hair and a red mark."
           }
         },
         {
-          "title": { "ru": "Палитра", "en": "Palette" },
+          "title": {
+            "ru": "Палитра",
+            "en": "Palette"
+          },
           "body": {
             "ru": "Красный, графит и кремовый — плюс тёплый телесный для персонажа. Четырёх цветов хватает на все пять носителей.",
             "en": "Red, graphite and cream — plus a warm skin tone for the character. Four colours carry all five formats."
@@ -120,14 +231,33 @@
     },
     {
       "type": "list",
-      "label": { "ru": "Что сделано", "en": "Deliverables" },
+      "label": {
+        "ru": "Что сделано",
+        "en": "Deliverables"
+      },
       "items": [
-        { "ru": "Визитка — две стороны", "en": "Business card — both sides" },
-        { "ru": "Приглашение на чайную церемонию", "en": "Tea ceremony invitation" },
-        { "ru": "Открытки", "en": "Postcards" },
-        { "ru": "Мерч — футболка", "en": "Merch — T-shirt" },
-        { "ru": "Листовка", "en": "Flyer" }
+        {
+          "ru": "Визитка — две стороны",
+          "en": "Business card — both sides"
+        },
+        {
+          "ru": "Приглашение на чайную церемонию",
+          "en": "Tea ceremony invitation"
+        },
+        {
+          "ru": "Открытки",
+          "en": "Postcards"
+        },
+        {
+          "ru": "Мерч — футболка",
+          "en": "Merch — T-shirt"
+        },
+        {
+          "ru": "Листовка",
+          "en": "Flyer"
+        }
       ]
     }
-  ]
+  ],
+  "year": "2026"
 }

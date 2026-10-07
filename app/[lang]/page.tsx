@@ -1,19 +1,20 @@
 import Link from "next/link";
 import { CompactList } from "@/components/CompactList";
 import { ContactCta } from "@/components/Footer";
-import { Picture } from "@/components/Media";
+import { JustifiedRow, Picture } from "@/components/Media";
 import { FiguresProject, HeroProject, StandardProject } from "@/components/Projects";
 import { Lines, Reveal } from "@/components/Reveal";
 import { ArrowLink, Section } from "@/components/Section";
 import { Tx } from "@/components/Tx";
-import { getProfile, getProjects, getSite } from "@/lib/content";
-import { labels, pad, t, type Locale } from "@/lib/i18n";
+import { getModeling, getProfile, getProjects, getSite } from "@/lib/content";
+import { labels, pad, t, type Locale, navLabel } from "@/lib/i18n";
 
 export default async function Home({ params }: { params: Promise<{ lang: Locale }> }) {
   const { lang } = await params;
   const profile = getProfile();
   const site = getSite();
   const projects = getProjects();
+  const model = getModeling();
   const ui = labels(lang);
 
   const hero = projects.find((p) => p.scale === "hero");
@@ -71,7 +72,7 @@ export default async function Home({ params }: { params: Promise<{ lang: Locale 
       </section>
 
       {/* 01 About */}
-      <Section num="01" label={t(site.nav[0].label, lang)}>
+      <Section num="01" label={navLabel(site.nav, "about", lang)}>
         <div className="max-w-[46rem]">
           <Reveal>
             <p className="t-md mb-6">{t(profile.about.paragraphs[0], lang)}</p>
@@ -106,7 +107,7 @@ export default async function Home({ params }: { params: Promise<{ lang: Locale 
         <div className="shell py-10">
           <h2 className="meta-label">
             <span className="mr-3 opacity-70">02</span>
-            <span className="!text-ink">{t(site.nav[1].label, lang)}</span>
+            <span className="!text-ink">{navLabel(site.nav, "work", lang)}</span>
           </h2>
         </div>
         {hero && <HeroProject project={hero} lang={lang} />}
@@ -132,6 +133,17 @@ export default async function Home({ params }: { params: Promise<{ lang: Locale 
           </Section>
         )}
       </section>
+
+      {/* 03 Model */}
+      <Section num="03" label={navLabel(site.nav, "model", lang)}>
+        <Reveal>
+          <p className="t-md mb-10 max-w-[40rem]">{t(model.intro, lang)}</p>
+        </Reveal>
+        <JustifiedRow items={model.photos.filter((p) => p.lead)} lang={lang} captions={false} />
+        <div className="mt-8">
+          <ArrowLink href={`/${lang}/model`}>{navLabel(site.nav, "model", lang)}</ArrowLink>
+        </div>
+      </Section>
 
       <ContactCta lang={lang} />
     </>

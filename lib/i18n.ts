@@ -13,6 +13,9 @@ export function t(value: L | undefined, lang: Locale): string {
   return lang === "ru" ? (value.ru ?? value.en) : value.en;
 }
 
+export const navLabel = (nav: { key: string; label: L }[], key: string, lang: Locale) =>
+  t(nav.find((n) => n.key === key)?.label, lang);
+
 export const other = (lang: Locale): Locale => (lang === "ru" ? "en" : "ru");
 
 const ui = {
@@ -28,6 +31,8 @@ const ui = {
     download: "Скачать",
     writeMe: "Напишите мне",
     telegram: "Telegram",
+    instagram: "Instagram",
+    phone: "Телефон",
     email: "Email",
     city: "Город",
     portfolio: "Портфолио",
@@ -64,6 +69,8 @@ const ui = {
     download: "Download",
     writeMe: "Write to me",
     telegram: "Telegram",
+    instagram: "Instagram",
+    phone: "Phone",
     email: "Email",
     city: "City",
     portfolio: "Portfolio",
@@ -98,6 +105,12 @@ function plural(n: number, forms: [string, string, string]) {
   if (mod10 === 1 && mod100 !== 11) return forms[0];
   if (mod10 >= 2 && mod10 <= 4 && (mod100 < 12 || mod100 > 14)) return forms[1];
   return forms[2];
+}
+
+/** +79954719697 → +7 995 471-96-97 */
+export function formatPhone(e164: string) {
+  const m = e164.match(/^\+7(\d{3})(\d{3})(\d{2})(\d{2})$/);
+  return m ? `+7 ${m[1]} ${m[2]}-${m[3]}-${m[4]}` : e164;
 }
 
 export const pad = (n: number) => String(n).padStart(2, "0");

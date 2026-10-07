@@ -5,11 +5,11 @@ import { Lines, Reveal } from "@/components/Reveal";
 import { ArrowLink, Section } from "@/components/Section";
 import { Tx } from "@/components/Tx";
 import { getProfile, getSite } from "@/lib/content";
-import { labels, t, type Locale } from "@/lib/i18n";
+import { labels, t, type Locale, navLabel } from "@/lib/i18n";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: Locale }> }): Promise<Metadata> {
   const { lang } = await params;
-  return { title: t(getSite().nav[0].label, lang), alternates: { canonical: `/${lang}/about` } };
+  return { title: navLabel(getSite().nav, "about", lang), alternates: { canonical: `/${lang}/about` } };
 }
 
 export default async function About({ params }: { params: Promise<{ lang: Locale }> }) {

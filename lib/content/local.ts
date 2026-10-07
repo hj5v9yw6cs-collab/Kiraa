@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import type { Profile, Project, Site } from "./types";
+import type { Modeling, Profile, Project, Site } from "./types";
 
 const root = process.cwd();
 const read = <T>(rel: string): T =>
@@ -43,4 +43,8 @@ export function getProjects(): Project[] {
 
 export function getProject(slug: string): Project | undefined {
   return getProjects().find((p) => p.slug === slug);
+}
+
+export function getModeling(): Modeling {
+  return read<Modeling>("model.json");
 }

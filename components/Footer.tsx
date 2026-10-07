@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Profile } from "@/lib/content";
-import { formatSize, labels, t, type Locale } from "@/lib/i18n";
+import { formatPhone, formatSize, labels, t, type Locale } from "@/lib/i18n";
 import { Lines } from "./Reveal";
 import { ToTop } from "./ToTop";
 import { Tx } from "./Tx";
@@ -38,9 +38,10 @@ export function ContactCta({ lang }: { lang: Locale }) {
   );
 }
 
-export function ContactRow({ lang, profile }: { lang: Locale; profile: Profile }) {
+/** Every way to reach Kira, in display order. */
+export function contactLinks(lang: Locale, profile: Profile) {
   const ui = labels(lang);
-  const { telegram, email } = profile.contacts;
+  const { telegram, email, instagram, phone } = profile.contacts;
   const cells: { label: string; node: React.ReactNode }[] = [];
   if (telegram)
     cells.push({
@@ -60,7 +61,31 @@ export function ContactRow({ lang, profile }: { lang: Locale; profile: Profile }
         </a>
       ),
     });
+  if (instagram)
+    cells.push({
+      label: ui.instagram,
+      node: (
+        <a href={`https://instagram.com/${instagram}`} target="_blank" rel="noreferrer" className="u-line">
+          @{instagram}
+        </a>
+      ),
+    });
+  if (phone)
+    cells.push({
+      label: ui.phone,
+      node: (
+        <a href={`tel:${phone}`} className="u-line whitespace-nowrap">
+          {formatPhone(phone)}
+        </a>
+      ),
+    });
   cells.push({ label: ui.city, node: <Tx>{t(profile.city, lang)}</Tx> });
+  return cells;
+}
+
+export function ContactRow({ lang, profile }: { lang: Locale; profile: Profile }) {
+  const ui = labels(lang);
+  const cells = contactLinks(lang, profile);
   if (profile.portfolioPdf)
     cells.push({
       label: ui.portfolio,
@@ -75,9 +100,9 @@ export function ContactRow({ lang, profile }: { lang: Locale; profile: Profile }
   return (
     <div className="grid-12 gap-y-8 py-12 md:py-16">
       {cells.map((cell, i) => (
-        <div key={i} className="col-span-4 md:col-span-3">
+        <div key={i} className="col-span-2 min-w-0 md:col-span-4 xl:col-span-2">
           <p className="meta-label mb-2.5">{cell.label}</p>
-          <div className="t-md">{cell.node}</div>
+          <div className="t-md break-words xl:!text-[1.1rem]">{cell.node}</div>
         </div>
       ))}
     </div>

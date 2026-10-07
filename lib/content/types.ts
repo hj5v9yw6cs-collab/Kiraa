@@ -82,11 +82,19 @@ export type Profile = {
     telegram?: string;
     email?: string;
     instagram?: string;
+    /** E.164, e.g. +79991234567 */
+    phone?: string;
   };
   portfolioPdf?: { src: string; label: L; size?: number };
 };
 
-export type NavItem = { key: "about" | "work" | "contact"; href: string; label: L };
+export type Modeling = {
+  intro: L;
+  facts: { label: L; value: L }[];
+  photos: MediaItem[];
+};
+
+export type NavItem = { key: "about" | "work" | "model" | "contact"; href: string; label: L };
 
 export type Site = {
   title: L;

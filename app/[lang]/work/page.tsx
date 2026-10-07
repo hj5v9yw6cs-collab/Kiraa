@@ -7,12 +7,12 @@ import { Lines, Reveal } from "@/components/Reveal";
 import { ArrowLink, Section } from "@/components/Section";
 import { Tx } from "@/components/Tx";
 import { getProjects, getSite } from "@/lib/content";
-import { labels, pad, t, type Locale } from "@/lib/i18n";
+import { labels, pad, t, type Locale, navLabel } from "@/lib/i18n";
 import Link from "next/link";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: Locale }> }): Promise<Metadata> {
   const { lang } = await params;
-  return { title: t(getSite().nav[1].label, lang), alternates: { canonical: `/${lang}/work` } };
+  return { title: navLabel(getSite().nav, "work", lang), alternates: { canonical: `/${lang}/work` } };
 }
 
 export default async function Work({ params }: { params: Promise<{ lang: Locale }> }) {
@@ -27,7 +27,7 @@ export default async function Work({ params }: { params: Promise<{ lang: Locale 
   return (
     <>
       <section className="shell flex flex-wrap items-end justify-between gap-6 pt-10 pb-12 md:pt-16 md:pb-20">
-        <Lines className="t-display" lines={[t(getSite().nav[1].label, lang)]} />
+        <Lines className="t-display" lines={[navLabel(getSite().nav, "work", lang)]} />
         <p className="meta">
           {ui.projectsCount(projects.length)}
           {years.length > 0 && ` · ${[...new Set(years)].sort().join("–")}`}

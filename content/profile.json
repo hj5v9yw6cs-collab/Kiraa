@@ -131,8 +131,8 @@
         "en": "Education"
       },
       "value": {
-        "ru": "[Где училась]",
-        "en": "[School]"
+        "ru": "МХПИ, колледж — графический дизайн, 3 курс",
+        "en": "MHPI College, Moscow — graphic design, 3rd year"
       }
     },
     {
@@ -141,8 +141,8 @@
         "en": "Languages"
       },
       "value": {
-        "ru": "[Русский, английский — уточнить]",
-        "en": "[Russian, English — to confirm]"
+        "ru": "Русский — родной, английский — B2",
+        "en": "Russian — native, English — B2"
       }
     }
   ],
@@ -266,14 +266,29 @@
       },
       "items": [
         {
-          "ru": "[Illustrator, Photoshop, … — уточнить]",
-          "en": "[Illustrator, Photoshop, … — to confirm]"
+          "ru": "Adobe Illustrator",
+          "en": "Adobe Illustrator"
+        },
+        {
+          "ru": "Adobe Photoshop",
+          "en": "Adobe Photoshop"
+        },
+        {
+          "ru": "Adobe InDesign",
+          "en": "Adobe InDesign"
+        },
+        {
+          "ru": "Figma",
+          "en": "Figma"
         }
       ]
     }
   ],
   "contacts": {
-    "telegram": "kiragorst"
+    "email": "kiragorst89@gmail.com",
+    "telegram": "kiragorst",
+    "instagram": "kiragorst",
+    "phone": "+79954719697"
   },
   "portfolioPdf": {
     "src": "/files/kira-gorst-portfolio.pdf",

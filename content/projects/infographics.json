@@ -2,36 +2,137 @@
   "slug": "infographics",
   "index": 2,
   "scale": "standard",
-  "title": { "ru": "Инфографика", "en": "Infographics" },
-  "category": { "ru": "Инфографика / векторная иллюстрация", "en": "Infographics / vector illustration" },
+  "title": {
+    "ru": "Инфографика",
+    "en": "Infographics"
+  },
+  "category": {
+    "ru": "Инфографика / векторная иллюстрация",
+    "en": "Infographics / vector illustration"
+  },
   "summary": {
     "ru": "Три плаката — «Казино», «Том ям» и «Хамелеон»: данные, рецепт и научпоп. Каждый показан в тоне и в цвете; вся графика — кастомный вектор, нарисованный с нуля.",
     "en": "Three posters — Casino, Tom Yum and Chameleon: data, a recipe and popular science. Each shown in tone and in colour; every graphic is custom vector drawn from scratch."
   },
   "tags": [
-    { "ru": "Данные", "en": "Data" },
-    { "ru": "Рецепт", "en": "Recipe" },
-    { "ru": "Научпоп", "en": "Popular science" },
-    { "ru": "Вектор", "en": "Vector" }
+    {
+      "ru": "Данные",
+      "en": "Data"
+    },
+    {
+      "ru": "Рецепт",
+      "en": "Recipe"
+    },
+    {
+      "ru": "Научпоп",
+      "en": "Popular science"
+    },
+    {
+      "ru": "Вектор",
+      "en": "Vector"
+    }
   ],
   "meta": [
-    { "label": { "ru": "Формат", "en": "Format" }, "value": { "ru": "Плакаты, 3 шт.", "en": "Posters, 3" } },
-    { "label": { "ru": "Темы", "en": "Subjects" }, "value": { "ru": "Индустрия казино, рецепт том яма, хамелеоны", "en": "The casino industry, a tom yum recipe, chameleons" } },
-    { "label": { "ru": "Графика", "en": "Graphics" }, "value": { "ru": "Кастомный вектор, с нуля", "en": "Custom vector, from scratch" } },
-    { "label": { "ru": "Год", "en": "Year" }, "value": { "ru": "[год]", "en": "[year]" } }
+    {
+      "label": {
+        "ru": "Тип",
+        "en": "Type"
+      },
+      "value": {
+        "ru": "Учебный проект",
+        "en": "Study project"
+      }
+    },
+    {
+      "label": {
+        "ru": "Формат",
+        "en": "Format"
+      },
+      "value": {
+        "ru": "Плакаты, 3 шт.",
+        "en": "Posters, 3"
+      }
+    },
+    {
+      "label": {
+        "ru": "Темы",
+        "en": "Subjects"
+      },
+      "value": {
+        "ru": "Индустрия казино, рецепт том яма, хамелеоны",
+        "en": "The casino industry, a tom yum recipe, chameleons"
+      }
+    },
+    {
+      "label": {
+        "ru": "Данные",
+        "en": "Data"
+      },
+      "value": {
+        "ru": "Открытые источники",
+        "en": "Open sources"
+      }
+    },
+    {
+      "label": {
+        "ru": "Графика",
+        "en": "Graphics"
+      },
+      "value": {
+        "ru": "Кастомный вектор, с нуля",
+        "en": "Custom vector, from scratch"
+      }
+    },
+    {
+      "label": {
+        "ru": "Год",
+        "en": "Year"
+      },
+      "value": {
+        "ru": "2026",
+        "en": "2026"
+      }
+    }
   ],
   "cover": {
     "kind": "image",
     "src": "/media/infographics/tom-yam.jpg",
     "width": 1501,
     "height": 2000,
-    "alt": { "ru": "Плакат-рецепт «Том ям» в цвете", "en": "The Tom Yum recipe poster in colour" }
+    "alt": {
+      "ru": "Плакат-рецепт «Том ям» в цвете",
+      "en": "The Tom Yum recipe poster in colour"
+    }
   },
   "figures": [
-    { "value": "3", "label": { "ru": "плаката: данные, рецепт, научпоп", "en": "posters: data, recipe, popular science" } },
-    { "value": "2", "label": { "ru": "состояния каждого — тон и цвет", "en": "states of each — tone and colour" } },
-    { "value": "5", "label": { "ru": "шагов в рецепте том яма", "en": "steps in the tom yum recipe" } },
-    { "value": "100%", "label": { "ru": "кастомная векторная графика", "en": "custom vector graphics" } }
+    {
+      "value": "3",
+      "label": {
+        "ru": "плаката: данные, рецепт, научпоп",
+        "en": "posters: data, recipe, popular science"
+      }
+    },
+    {
+      "value": "2",
+      "label": {
+        "ru": "состояния каждого — тон и цвет",
+        "en": "states of each — tone and colour"
+      }
+    },
+    {
+      "value": "5",
+      "label": {
+        "ru": "шагов в рецепте том яма",
+        "en": "steps in the tom yum recipe"
+      }
+    },
+    {
+      "value": "100%",
+      "label": {
+        "ru": "кастомная векторная графика",
+        "en": "custom vector graphics"
+      }
+    }
   ],
   "media": [
     {
@@ -40,8 +141,14 @@
       "src": "/media/infographics/casino-sketch.jpg",
       "width": 1248,
       "height": 1688,
-      "alt": { "ru": "«Казино» в тоне: серые блоки на месте графиков", "en": "Casino in tone: grey blocks where the charts go" },
-      "caption": { "ru": "«Казино» — тон", "en": "Casino — tone" }
+      "alt": {
+        "ru": "«Казино» в тоне: серые блоки на месте графиков",
+        "en": "Casino in tone: grey blocks where the charts go"
+      },
+      "caption": {
+        "ru": "«Казино» — тон",
+        "en": "Casino — tone"
+      }
     },
     {
       "kind": "image",
@@ -49,8 +156,14 @@
       "src": "/media/infographics/casino.jpg",
       "width": 1274,
       "height": 1688,
-      "alt": { "ru": "«Казино» в цвете: рулетка-диаграмма, фишки, графики трат по странам", "en": "Casino in colour: a roulette pie chart, chips, spend-by-country bars" },
-      "caption": { "ru": "«Казино» — цвет", "en": "Casino — colour" }
+      "alt": {
+        "ru": "«Казино» в цвете: рулетка-диаграмма, фишки, графики трат по странам",
+        "en": "Casino in colour: a roulette pie chart, chips, spend-by-country bars"
+      },
+      "caption": {
+        "ru": "«Казино» — цвет",
+        "en": "Casino — colour"
+      }
     },
     {
       "kind": "image",
@@ -58,8 +171,14 @@
       "src": "/media/infographics/tom-yam-sketch.jpg",
       "width": 1509,
       "height": 2000,
-      "alt": { "ru": "«Том ям» в тоне", "en": "Tom Yum in tone" },
-      "caption": { "ru": "«Том ям» — тон", "en": "Tom Yum — tone" }
+      "alt": {
+        "ru": "«Том ям» в тоне",
+        "en": "Tom Yum in tone"
+      },
+      "caption": {
+        "ru": "«Том ям» — тон",
+        "en": "Tom Yum — tone"
+      }
     },
     {
       "kind": "image",
@@ -67,8 +186,14 @@
       "src": "/media/infographics/tom-yam.jpg",
       "width": 1501,
       "height": 2000,
-      "alt": { "ru": "«Том ям» в цвете: ингредиенты, пять шагов, тарелка супа", "en": "Tom Yum in colour: ingredients, five steps, a bowl of soup" },
-      "caption": { "ru": "«Том ям» — цвет", "en": "Tom Yum — colour" }
+      "alt": {
+        "ru": "«Том ям» в цвете: ингредиенты, пять шагов, тарелка супа",
+        "en": "Tom Yum in colour: ingredients, five steps, a bowl of soup"
+      },
+      "caption": {
+        "ru": "«Том ям» — цвет",
+        "en": "Tom Yum — colour"
+      }
     },
     {
       "kind": "image",
@@ -76,8 +201,14 @@
       "src": "/media/infographics/chameleon-sketch.jpg",
       "width": 1407,
       "height": 2000,
-      "alt": { "ru": "«Хамелеон» в тоне", "en": "Chameleon in tone" },
-      "caption": { "ru": "«Хамелеон» — тон", "en": "Chameleon — tone" }
+      "alt": {
+        "ru": "«Хамелеон» в тоне",
+        "en": "Chameleon in tone"
+      },
+      "caption": {
+        "ru": "«Хамелеон» — тон",
+        "en": "Chameleon — tone"
+      }
     },
     {
       "kind": "image",
@@ -85,14 +216,23 @@
       "src": "/media/infographics/chameleon.jpg",
       "width": 1414,
       "height": 2000,
-      "alt": { "ru": "«Хамелеон» в цвете: пять фактов и большой зелёный хамелеон", "en": "Chameleon in colour: five facts and a large green chameleon" },
-      "caption": { "ru": "«Хамелеон» — цвет", "en": "Chameleon — colour" }
+      "alt": {
+        "ru": "«Хамелеон» в цвете: пять фактов и большой зелёный хамелеон",
+        "en": "Chameleon in colour: five facts and a large green chameleon"
+      },
+      "caption": {
+        "ru": "«Хамелеон» — цвет",
+        "en": "Chameleon — colour"
+      }
     }
   ],
   "blocks": [
     {
       "type": "text",
-      "label": { "ru": "Метод", "en": "Method" },
+      "label": {
+        "ru": "Метод",
+        "en": "Method"
+      },
       "body": [
         {
           "ru": "Каждый плакат показан в двух состояниях — в тоне и в цвете. В сером видно, на чём всё держится: композиция, иерархия, вес блоков. Цвет приходит последним и сразу задаёт тему — зелёное сукно казино, оранжевый бульон том яма, коричневая кора под хамелеоном.",
@@ -102,12 +242,25 @@
     },
     {
       "type": "list",
-      "label": { "ru": "Плакаты", "en": "Posters" },
+      "label": {
+        "ru": "Плакаты",
+        "en": "Posters"
+      },
       "items": [
-        { "ru": "«Казино» — форма игры, популярные игры, шансы выигрыша, траты игроков по странам, рост доходов", "en": "Casino — online vs offline, popular games, odds of winning, player spend by country, revenue growth" },
-        { "ru": "«Том ям» — восемь ингредиентов, пять шагов, 30 минут, три порции", "en": "Tom Yum — eight ingredients, five steps, 30 minutes, three servings" },
-        { "ru": "«Хамелеон» — пять фактов: язык, глаза, лапы, хвост и смена цвета", "en": "Chameleon — five facts: tongue, eyes, feet, tail and colour change" }
+        {
+          "ru": "«Казино» — форма игры, популярные игры, шансы выигрыша, траты игроков по странам, рост доходов",
+          "en": "Casino — online vs offline, popular games, odds of winning, player spend by country, revenue growth"
+        },
+        {
+          "ru": "«Том ям» — восемь ингредиентов, пять шагов, 30 минут, три порции",
+          "en": "Tom Yum — eight ingredients, five steps, 30 minutes, three servings"
+        },
+        {
+          "ru": "«Хамелеон» — пять фактов: язык, глаза, лапы, хвост и смена цвета",
+          "en": "Chameleon — five facts: tongue, eyes, feet, tail and colour change"
+        }
       ]
     }
-  ]
+  ],
+  "year": "2026"
 }

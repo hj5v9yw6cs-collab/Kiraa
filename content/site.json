@@ -8,9 +8,38 @@
     "en": "Kira Gorst, graphic designer and model. Identity, zines, infographics and academic drawing — graphics drawn from scratch."
   },
   "nav": [
-    { "key": "about", "href": "/about", "label": { "ru": "Обо мне", "en": "About" } },
-    { "key": "work", "href": "/work", "label": { "ru": "Проекты", "en": "Work" } },
-    { "key": "contact", "href": "/contact", "label": { "ru": "Контакты", "en": "Contact" } }
+    {
+      "key": "about",
+      "href": "/about",
+      "label": {
+        "ru": "Обо мне",
+        "en": "About"
+      }
+    },
+    {
+      "key": "work",
+      "href": "/work",
+      "label": {
+        "ru": "Проекты",
+        "en": "Work"
+      }
+    },
+    {
+      "key": "model",
+      "href": "/model",
+      "label": {
+        "ru": "Модель",
+        "en": "Model"
+      }
+    },
+    {
+      "key": "contact",
+      "href": "/contact",
+      "label": {
+        "ru": "Контакты",
+        "en": "Contact"
+      }
+    }
   ],
   "contactIntro": {
     "ru": "Пишите про айдентику, вёрстку, инфографику, иллюстрацию или съёмки — или просто чтобы познакомиться.",

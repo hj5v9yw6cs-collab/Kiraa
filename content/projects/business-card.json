@@ -2,28 +2,73 @@
   "slug": "business-card",
   "index": 4,
   "scale": "compact",
-  "title": { "ru": "Визитная карточка дизайнера", "en": "Designer's business card" },
-  "category": { "ru": "Личный бренд / типографика", "en": "Personal brand / typography" },
+  "title": {
+    "ru": "Визитная карточка дизайнера",
+    "en": "Designer's business card"
+  },
+  "category": {
+    "ru": "Личный бренд / типографика",
+    "en": "Personal brand / typography"
+  },
   "summary": {
     "ru": "Собственная визитка: портрет, собранный из ASCII-символов, рядом с узким контрастным набором имени. Напечатана тиражом.",
     "en": "My own business card: a portrait assembled from ASCII characters next to a narrow, high-contrast setting of the name. Printed."
   },
   "tags": [
-    { "ru": "Типографика", "en": "Typography" },
-    { "ru": "ASCII-арт", "en": "ASCII art" },
-    { "ru": "Полиграфия", "en": "Print" }
+    {
+      "ru": "Типографика",
+      "en": "Typography"
+    },
+    {
+      "ru": "ASCII-арт",
+      "en": "ASCII art"
+    },
+    {
+      "ru": "Полиграфия",
+      "en": "Print"
+    }
   ],
   "meta": [
-    { "label": { "ru": "Формат", "en": "Format" }, "value": { "ru": "Визитка, две стороны", "en": "Business card, two sides" } },
-    { "label": { "ru": "Приём", "en": "Device" }, "value": { "ru": "Портрет из ASCII-символов", "en": "A portrait made of ASCII characters" } },
-    { "label": { "ru": "Год", "en": "Year" }, "value": { "ru": "[год]", "en": "[year]" } }
+    {
+      "label": {
+        "ru": "Формат",
+        "en": "Format"
+      },
+      "value": {
+        "ru": "Визитка, две стороны",
+        "en": "Business card, two sides"
+      }
+    },
+    {
+      "label": {
+        "ru": "Приём",
+        "en": "Device"
+      },
+      "value": {
+        "ru": "Портрет из ASCII-символов",
+        "en": "A portrait made of ASCII characters"
+      }
+    },
+    {
+      "label": {
+        "ru": "Год",
+        "en": "Year"
+      },
+      "value": {
+        "ru": "2026",
+        "en": "2026"
+      }
+    }
   ],
   "cover": {
     "kind": "image",
     "src": "/media/business-card/stack.jpg",
     "width": 863,
     "height": 1080,
-    "alt": { "ru": "Стопка напечатанных визиток на чёрном", "en": "A stack of printed business cards on black" }
+    "alt": {
+      "ru": "Стопка напечатанных визиток на чёрном",
+      "en": "A stack of printed business cards on black"
+    }
   },
   "media": [
     {
@@ -32,8 +77,14 @@
       "src": "/media/business-card/cards.jpg",
       "width": 2400,
       "height": 1350,
-      "alt": { "ru": "Лицо и оборот визитки и напечатанный тираж", "en": "Front and back of the card, and the printed run" },
-      "caption": { "ru": "Лицо, оборот и тираж", "en": "Front, back and the printed run" }
+      "alt": {
+        "ru": "Лицо и оборот визитки и напечатанный тираж",
+        "en": "Front and back of the card, and the printed run"
+      },
+      "caption": {
+        "ru": "Лицо, оборот и тираж",
+        "en": "Front, back and the printed run"
+      }
     },
     {
       "kind": "image",
@@ -41,8 +92,14 @@
       "src": "/media/business-card/front.jpg",
       "width": 1134,
       "height": 603,
-      "alt": { "ru": "Лицевая сторона: Designer, Model, Kira Gorst и ASCII-портрет", "en": "The front: Designer, Model, Kira Gorst and the ASCII portrait" },
-      "caption": { "ru": "Лицевая сторона", "en": "Front" }
+      "alt": {
+        "ru": "Лицевая сторона: Designer, Model, Kira Gorst и ASCII-портрет",
+        "en": "The front: Designer, Model, Kira Gorst and the ASCII portrait"
+      },
+      "caption": {
+        "ru": "Лицевая сторона",
+        "en": "Front"
+      }
     },
     {
       "kind": "image",
@@ -50,14 +107,23 @@
       "src": "/media/business-card/stack.jpg",
       "width": 863,
       "height": 1080,
-      "alt": { "ru": "Стопка визиток веером", "en": "Cards fanned out" },
-      "caption": { "ru": "Тираж", "en": "Printed run" }
+      "alt": {
+        "ru": "Стопка визиток веером",
+        "en": "Cards fanned out"
+      },
+      "caption": {
+        "ru": "Тираж",
+        "en": "Printed run"
+      }
     }
   ],
   "blocks": [
     {
       "type": "text",
-      "label": { "ru": "Идея", "en": "Idea" },
+      "label": {
+        "ru": "Идея",
+        "en": "Idea"
+      },
       "body": [
         {
           "ru": "Портрет на лицевой стороне набран символами — $, &, x, + — и складывается в лицо только на расстоянии; вблизи это текстура. Оборот — чистая типографика: имя, роль и контакт.",
@@ -65,5 +131,6 @@
         }
       ]
     }
-  ]
+  ],
+  "year": "2026"
 }
